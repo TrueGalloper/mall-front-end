@@ -1,3 +1,13 @@
+.primary-color-active {
+  color: #61AD4E;
+}
+
+.primary-color {
+  color: #B9BABD;
+}
+
+
+
 .text-primary {
   color: #fa550f;
 }

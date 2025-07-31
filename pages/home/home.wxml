@@ -6,11 +6,11 @@
     <t-search
       t-class-input="t-search__input"
       t-class-input-container="t-search__input-container"
-      placeholder="iphone 13 火热发售中"
+      placeholder="西红柿"
       leftIcon=""
       disabled
     >
-      <t-icon slot="left-icon" prefix="wr" name="search" size="40rpx" color="#bbb" />
+      <t-icon slot="left-icon" prefix="wr" name="search" size="40rpx" color="#61AD4E" />
     </t-search>
   </view>
   <view class="swiper-wrap">
@@ -27,6 +27,39 @@
     />
   </view>
 </view>
+
+
+<view class="home-page-categories-container">
+  <view class="home-page-categories-header">
+    <view style="color: #1C2229;font-weight: 500;">分类</view>
+    <view style="color: #61AD4E;">查看全部</view>  
+  </view>
+  <scroll-view scroll-x enable-flex class="home-page-categories-list">
+    <view class="home-page-categories-item">
+      
+    </view>
+    <view class="home-page-categories-item">
+      
+    </view>
+    <view class="home-page-categories-item">
+      
+    </view>
+    <view class="home-page-categories-item">
+      
+    </view>
+    <view class="home-page-categories-item">
+      
+    </view>
+    <view class="home-page-categories-item">
+      
+    </view>
+    <view class="home-page-categories-item">
+      
+    </view>
+
+  </scroll-view>
+</view>
+
 <view class="home-page-container">
   <view class="home-page-tabs">
     <t-tabs
