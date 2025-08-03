@@ -31,7 +31,7 @@
 
 <view class="home-page-categories-container">
   <view class="home-page-categories-header">
-    <view style="color: #1C2229;font-weight: 500;">分类</view>
+    <view style="color: #1C2229; font-weight: 500;">分类</view>
     <view style="color: #61AD4E;">查看全部</view>  
   </view>
   <scroll-view scroll-x enable-flex class="home-page-categories-list">

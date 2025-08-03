@@ -1,0 +1,57 @@
+.good-card1-container {
+	padding: 24rpx;
+	border-radius: 16px;
+	border: 1px solid #E8E9EA;
+}
+
+.good-card1__image {
+	width: 100%;
+	height: 200rpx;
+	background-image: url('/images/a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+	border-radius: 16px;
+}
+
+
+.goods-card1__title {
+  flex-shrink: 0;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 400;
+  display: -webkit-box;
+  height: 72rpx;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+	line-height: 36rpx;
+}
+
+.good-card1-price {
+	color: var(--neutral-slate-black-slate-black-500, #1C2229);
+	font-family: Satoshi;
+	font-size: 24rpx;
+	font-weight: 900;
+	line-height: 17rpx;
+}
+
+.goods-card1__norm {
+	color: var(--primary-second-color-text);
+	font-size: 20rpx;
+	line-height: 28rpx; 
+	margin-top: 8rpx;
+}
+
+.good-card1-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.good-card1-add {
+	width: 48rpx;
+	height: 48rpx;
+	border-radius: 8px;
+	background: var(--primary-fresh-green-fresh-green-100, #CEE6C8);
+}

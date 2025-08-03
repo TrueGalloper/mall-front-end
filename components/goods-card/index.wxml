@@ -19,7 +19,8 @@
 				<view wx:if="{{ goods.title }}" class="goods-card__title">
 					{{ goods.title }}
 				</view>
-				<view wx:if="{{ goods.tags && !!goods.tags.length }}" class="goods-card__tags">
+				<view class="goods-card__norm">1kg/包</view>
+				<!-- <view wx:if="{{ goods.tags && !!goods.tags.length }}" class="goods-card__tags">
 					<view
 					  wx:for="{{ goods.tags }}"
 					  wx:key="index"
@@ -29,7 +30,7 @@
 					>
 						{{tag}}
 					</view>
-				</view>
+				</view> -->
 			</view>
 			<view class="goods-card__down">
 				<price
@@ -54,7 +55,7 @@
 				  data-id="{{independentID}}"
 				  catchtap="addCartHandle"
 				  size="48rpx"
-				  color="#FA550F"
+				  color="var(--primary-color)"
 				/>
 			</view>
 		</view>

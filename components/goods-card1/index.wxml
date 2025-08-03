@@ -1,0 +1,13 @@
+<view class="good-card1-container">
+	<image
+		class="good-card1__image"
+		t-class="goods-card1__img"
+			  src="/images/a.jpg"
+			/>
+	<view class="goods-card1__title">打包菜打包菜打包eeee菜打包菜打包菜打包菜打包菜</view>
+	<view class="goods-card1__norm">1斤/包</view>
+	<view class="good-card1-footer">
+		<view class="good-card1-price">¥29</view>
+		<view class="good-card1-add"></view>
+	</view>
+</view>

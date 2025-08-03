@@ -5,3 +5,13 @@
 .cell--noborder .t-cell::after {
   border-bottom: none !important;
 }
+
+page {
+  --primary-color: #61AD4E; /* 主色调 */
+  --primary-second-color: #B9BABD; /* 次主色调 */
+  --primary-color-text: #1C2229; /* 基础字体颜色 */
+  --primary-second-color-text: #97999D; /* 基础次字体颜色 */
+  --font-size-base: 32rpx;   /* 基础字体大小 */
+  --padding-base: 24rpx;     /* 基础内边距 */
+  --border-radius: 32rpx;   /* 圆角 */
+}
