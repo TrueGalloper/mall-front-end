@@ -9,6 +9,6 @@
         </view>
       </view>
     </view>
-    <view class="bottom-btn" hover-class="bottom-btn--active" bindtap="onClose">我知道了</view>
+    <!-- <view class="bottom-btn" hover-class="bottom-btn--active" bindtap="onClose">我知道了</view> -->
   </view>
 </t-popup>

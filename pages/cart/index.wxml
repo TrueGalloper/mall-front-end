@@ -12,7 +12,48 @@
     binddelete="onGoodsDelete"
   />
 
-  <view class="gap" />
+  <view style="background-color: #fff;" class="cart-page-goods-container">
+  <view class="cart-page-goods-header">
+    <view style="color: #61AD4E; font-weight: 500;">猜你喜欢</view>
+  </view>
+  <scroll-view scroll-x enable-flex class="cart-page-goods-list">
+      <goods-card
+        style="width:280rpx;"
+        data="{{goodsList[0]}}"
+        currency="{{goodsList[0].currency || '¥'}}"
+        thresholds="{{thresholds}}"
+        class="goods-card-inside"
+        data-index="{{index}}"
+      />
+      <goods-card
+        style="width:280rpx;"
+        data="{{goodsList[0]}}"
+        currency="{{goodsList[0].currency || '¥'}}"
+        thresholds="{{thresholds}}"
+        class="goods-card-inside"
+        data-index="{{index}}"
+      />
+      <goods-card
+        style="width:280rpx;"
+        data="{{goodsList[0]}}"
+        currency="{{goodsList[0].currency || '¥'}}"
+        thresholds="{{thresholds}}"
+        class="goods-card-inside"
+        data-index="{{index}}"
+      />
+      <goods-card
+        style="width:280rpx;"
+        data="{{goodsList[0]}}"
+        currency="{{goodsList[0].currency || '¥'}}"
+        thresholds="{{thresholds}}"
+        class="goods-card-inside"
+        data-index="{{index}}"
+      />
+
+  </scroll-view>
+</view>
+
+  <!-- <view class="gap" /> -->
   <!-- 商品小计以及结算按钮 -->
   <cart-bar
     is-all-selected="{{cartGroupData.isAllSelected}}"

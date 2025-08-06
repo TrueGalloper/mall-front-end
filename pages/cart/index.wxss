@@ -11,3 +11,28 @@
   --td-button-default-color: #000;
   --td-button-primary-text-color: #fa4126;
 }
+
+.cart-page-goods-container {
+  height: 500rpx;
+  background-color: #CEE6C8;
+  padding: 24rpx;
+}
+
+.cart-page-goods-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24rpx;
+  font-size: 32rpx;
+}
+
+.cart-page-goods-list {
+  display: flex;
+  height: 430rpx;
+}
+
+.cart-page-goods-list .goods-card-inside {
+  flex-shrink: 0;
+  margin-right: 24rpx;
+}

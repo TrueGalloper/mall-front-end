@@ -95,6 +95,8 @@ Page({
         goodsListLoadStatus: 0,
       });
 
+      console.log(this.data.goodsList);
+
       this.goodListPagination.index = pageIndex;
       this.goodListPagination.num = pageSize;
     } catch (err) {

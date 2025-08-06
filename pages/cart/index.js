@@ -5,6 +5,14 @@ import { fetchCartGroupData } from '../../services/cart/cart';
 Page({
   data: {
     cartGroupData: null,
+    goodsList: [{
+      originPrice: 40000,
+      price: 29800,
+      spuId: "0",
+      tags: ["限时抢购"],
+      thumb: "https://tdesign.gtimg.com/miniprogram/template/retail/goods/nz-09a.png",
+      title: "白色短袖连衣裙荷叶边裙摆宽松韩版休闲纯白清爽优雅连衣裙"
+    }],
   },
 
   // 调用自定义tabbar的init函数，使页面与tabbar激活状态保持一致
